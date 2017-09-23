@@ -19,3 +19,7 @@ var age = 26;
 
 console.log( name + age );
 console.log( age + age );
+
+var job, isMarried;
+
+console.log( job );
