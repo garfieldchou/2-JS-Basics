@@ -1,1 +1,2 @@
-console.log('Hello World in script.js');
+var name = 'John';
+console.log(name);
