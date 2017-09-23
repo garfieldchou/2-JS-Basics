@@ -23,3 +23,8 @@ console.log( age + age );
 var job, isMarried;
 
 console.log( job );
+
+job = 'teacher';
+isMarried = false;
+
+console.log(name + ' is a ' + age + ' years old ' + job + '. Is he married? ' + isMarried + '.');
