@@ -5,4 +5,6 @@ function calculateAge(yearOfBirth) {
 }
 
 var ageJohn = calculateAge(1990);
-console.log(ageJohn);
+var ageMike = calculateAge(1969);
+var ageMary = calculateAge(1948);
+console.log(ageMary);
