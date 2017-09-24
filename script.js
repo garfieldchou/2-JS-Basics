@@ -53,6 +53,19 @@ birthYear = now - 26 * 2;
 
 console.log(birthYear);
 
+var ageJohn = 30;
+var ageMark = 30;
+
+ageJohn = ageMark = ( 3 + 5 ) * 4 - 6;
+// ageJohn = ageMark - 26
+// ageJohn = 26
+// right to left
+
+ageJohn++;
+ageJohn = ageJohn + 1;
+
+console.log(ageJohn);
+console.log(ageMark);
 
 
 
