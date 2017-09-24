@@ -15,3 +15,5 @@ john.pop();
 john.shift();
 
 console.log(john);
+
+alert(john.indexOf('Smith'));
