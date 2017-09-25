@@ -13,3 +13,8 @@ var john = {
 };
 
 console.log(john.calculateAge());
+
+var age = john.calculateAge();
+john.age = age;
+
+console.log(john);
