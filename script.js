@@ -10,3 +10,6 @@ var john = {
 
 console.log(john.lastName);
 console.log(john['lastName']);
+
+var xyz = 'job';
+console.log(john[xyz]);
