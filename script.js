@@ -12,4 +12,4 @@ var john = {
     }
 };
 
-console.log(john);
+console.log(john.calculateAge(1990));
