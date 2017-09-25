@@ -7,9 +7,9 @@ var john = {
     job: 'teacher',
     isMarried: false,
     family: ['Jane', 'Mark', 'Bob'],
-    calculateAge: function(yearOfBirth) {
-        return 2017 - yearOfBirth;
+    calculateAge: function() {
+        return 2017 - this.yearOfBirth;
     }
 };
 
-console.log(john.calculateAge(1990));
+console.log(john.calculateAge());
