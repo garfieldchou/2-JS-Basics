@@ -17,3 +17,12 @@ console.log(john[xyz]);
 john.lastName = 'Miller';
 john['job'] = 'programmer';
 console.log(john);
+
+var jane = new Object();
+jane.name = 'Jane';
+jane.lastName = 'Smith';
+jane['yearOfBirth'] = 1989;
+jane['job'] = 'retired';
+jane['isMarried'] = true;
+
+console.log(jane);
