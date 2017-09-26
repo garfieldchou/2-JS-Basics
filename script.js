@@ -13,3 +13,9 @@ for (var i = 0; i < 10; i++) {
 9, true, print 9, update i to 10
 10, FALSE, end loop!
 */
+
+var names = ['John', 'Jane', 'Mary', 'Mark', 'Bob'];
+
+for (var i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
