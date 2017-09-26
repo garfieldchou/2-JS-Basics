@@ -37,3 +37,13 @@ var john = {
 
 john.calculateAge();
 console.log(john);
+
+var mike = {
+    yearOfBirth: 1950,
+    calculateAge: function() {
+        this.age = 2017 - this.yearOfBirth;
+    }
+};
+
+mike.calculateAge();
+console.log(mike);
