@@ -36,10 +36,9 @@ while(i < names.length) {
 }
 
 for (var i = 1; i <= 5; i++) {
-    console.log(i);
-    
     if (i === 3){
-        break;
+        continue;
     }
+    
+    console.log(i);
 }
-
