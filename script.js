@@ -19,3 +19,7 @@ var names = ['John', 'Jane', 'Mary', 'Mark', 'Bob'];
 for (var i = 0; i < names.length; i++) {
     console.log(names[i]);
 }
+
+for (var i = names.length - 1; i >= 0; i--) {
+    console.log(names[i]);
+}
