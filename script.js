@@ -14,8 +14,11 @@ for (var i = 0; i < 10; i++) {
 10, FALSE, end loop!
 */
 
+
 var names = ['John', 'Jane', 'Mary', 'Mark', 'Bob'];
 
+/*
+// for loops
 for (var i = 0; i < names.length; i++) {
     console.log(names[i]);
 }
@@ -23,3 +26,12 @@ for (var i = 0; i < names.length; i++) {
 for (var i = names.length - 1; i >= 0; i--) {
     console.log(names[i]);
 }
+*/
+
+// while loops
+var i = 0;
+while(i < names.length) {
+    console.log(names[i]);
+    i++;
+}
+
