@@ -35,3 +35,11 @@ while(i < names.length) {
     i++;
 }
 
+for (var i = 1; i <= 5; i++) {
+    console.log(i);
+    
+    if (i === 3){
+        break;
+    }
+}
+
